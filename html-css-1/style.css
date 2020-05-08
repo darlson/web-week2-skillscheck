@@ -3,6 +3,8 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 nav {
     background-color: #777777;
@@ -17,15 +19,20 @@ nav {
 }
 .company-logo {
     margin-top: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
     color: white;
-    font-size: 28px;:: 
+    font-size: 26px;
+    font-weight: 100;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 .nav-container {
     height: 20px;
     width: 200px;
     display: flex;
     justify-content: flex-end;
+    align-content: absolute;
 }
 .nav-links {
     color: white;
@@ -34,44 +41,46 @@ nav {
 }
 .black-main {
     background-color: black ;
-    height: 300px;
+    height: 260px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .attention-getter {
     color: khaki ;
     font-size: 50px;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-stretch: extra-condensed;
+    
 }
 .white-main {
     background-color: white;
-    height: 550px;
+    height: 650px;
 }
 .green-box-container {
-    margin: 25px 40px;
+    margin: 25px 60px;
     display: flex;
     justify-content: space-between;
 }
 .green-box {
     background-color: aquamarine;
-    height: 180px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     border-radius: 15px;
 }
 .gold-box-container {
-    margin: 25px 40px;
+    margin: 25px 60px;
     display: flex;
     justify-content: space-between
 }
 .gold-box {
     background-color: #fdc357;
-    height: 180px;
-    width: 330px;
+    height: 200px;
+    width: 350px;
 }
 .text-img-container {
-    margin: 25px 40px;
+    margin: 25px 30px;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -84,8 +93,9 @@ p {
     font-size: 10px;
 }
 img  {
-    height:120px;
-    width: 160px;
+    height:140px;
+    width: 200px;
+
     
 }
 footer {
